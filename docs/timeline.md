@@ -1,0 +1,27 @@
+# Project Timeline — Mental Zen (25 Days)
+
+- [ ] Day 1: Project proposal draft, initial repository setup, and architecture specification.
+- [ ] Day 2: Finalize Milestone 1 proposal document, 6 wireframe SVGs, and statements.
+- [ ] Day 3: Baseline evaluation dataset (30 entries) curation and review.
+- [ ] Day 4: Firebase project provisioning, Android app bundle config, and emulator setup.
+- [ ] Day 5: F1 — Authentication domain models, repository, and Riverpod auth provider.
+- [ ] Day 6: F1 — Sign-in UI, validation logic, and auth error presentation.
+- [ ] Day 7: F2 — Journal entry domain entities and offline-capable EntryRepository.
+- [ ] Day 8: F2 — Entry composer UI with 5-point segmented mood buttons.
+- [ ] Day 9: F3 — History list screen, date grouping, and Firestore pagination query.
+- [ ] Day 10: Firestore security rules validation and unit testing via Firebase Emulator suite.
+- [ ] Day 11: F4 — Streak calculation logic, domain unit tests, and history indicators.
+- [ ] Day 12: F5 — Pure Dart offline lexicon scorer and 200-stem dictionary.
+- [ ] Day 13: F5 — Firebase Cloud Functions setup, callable endpoint, and PII redaction.
+- [ ] Day 14: F5 — Client insight card integration, Riverpod async handler, and 4s timeout.
+- [ ] Day 15: F5 — Deterministic fallback ladder verification, error chip, and Crashlytics hooks.
+- [ ] Day 16: F6 — FCM push notification token registration and daily reminder scheduler.
+- [ ] Day 17: F6 — Local notifications handler for offline reminder delivery.
+- [ ] Day 18: F8 — Firebase Remote Config integration for dynamic feature flags and prompt versions.
+- [ ] Day 19: F9 — Firebase Analytics event logging and Crashlytics non-fatal error instrumentation.
+- [ ] Day 20: Comprehensive model evaluation run against `assets/eval/entries.json`.
+- [ ] Day 21: Metric computation (accuracy, Cohen's kappa, p95 latency, fallback rate) and eval log update.
+- [ ] Day 22: F7 — User settings screen, JSON data export utility, and cascaded account deletion.
+- [ ] Day 23: Complete documentation audit, README finalized, and license checks.
+- [ ] Day 24: Release APK build generation (`flutter build apk --release`) and device testing.
+- [ ] Day 25: Final demo video recording, walk-through presentation, and project submission.

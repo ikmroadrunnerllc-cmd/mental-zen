@@ -1,0 +1,40 @@
+# Environment and Secrets (Hard rules)
+google-services.json
+functions/.env
+*.jks
+.env
+*.keystore
+
+# Force track AGENTS.md despite any global gitignore
+!AGENTS.md
+!.agents/**
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+
+# Node (Functions)
+functions/node_modules/
+functions/lib/
+
+# Android
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

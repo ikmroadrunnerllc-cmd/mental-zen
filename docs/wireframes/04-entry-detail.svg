@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <!-- Device Outer Frame -->
+  <rect x="0" y="0" width="390" height="844" rx="40" fill="#f8f9fa" stroke="#212529" stroke-width="4"/>
+  <!-- Status Bar -->
+  <rect x="135" y="12" width="120" height="28" rx="14" fill="#212529"/>
+  <text x="35" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#212529">09:41</text>
+  <text x="330" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#212529">100%</text>
+
+  <!-- App Bar with Back Arrow -->
+  <rect x="25" y="68" width="36" height="36" rx="18" fill="#e9ecef"/>
+  <text x="37" y="91" font-family="sans-serif" font-size="16" font-weight="bold" fill="#212529">←</text>
+  <text x="75" y="92" font-family="sans-serif" font-size="18" font-weight="bold" fill="#212529">Entry Details</text>
+  
+  <!-- Delete Icon Placeholder -->
+  <rect x="330" y="68" width="36" height="36" rx="18" fill="#e9ecef"/>
+  <text x="348" y="91" font-family="sans-serif" font-size="14" fill="#495057" text-anchor="middle">DEL</text>
+
+  <!-- Header Card -->
+  <g transform="translate(30, 125)">
+    <rect x="0" y="0" width="330" height="80" rx="12" fill="#ffffff" stroke="#ced4da" stroke-width="1.5"/>
+    <rect x="15" y="15" width="65" height="26" rx="13" fill="#212529"/>
+    <text x="47" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Mood 4</text>
+    <text x="95" y="33" font-family="sans-serif" font-size="14" font-weight="bold" fill="#212529">Wednesday, Nov 19</text>
+    <text x="15" y="62" font-family="sans-serif" font-size="12" fill="#6c757d">Logged at 21:15 • Word count: 68 words</text>
+  </g>
+
+  <!-- Full Journal Reflection Content Card -->
+  <g transform="translate(30, 220)">
+    <rect x="0" y="0" width="330" height="230" rx="12" fill="#ffffff" stroke="#ced4da" stroke-width="1.5"/>
+    <text x="15" y="30" font-family="sans-serif" font-size="13" font-weight="bold" fill="#212529">Reflection</text>
+    <text x="15" y="60" font-family="sans-serif" font-size="13" fill="#495057">Finished my group presentation draft on time today.</text>
+    <text x="15" y="82" font-family="sans-serif" font-size="13" fill="#495057">It felt like a huge weight lifted off my shoulders.</text>
+    <text x="15" y="104" font-family="sans-serif" font-size="13" fill="#495057">Afterwards, I took a long walk along the canal with</text>
+    <text x="15" y="126" font-family="sans-serif" font-size="13" fill="#495057">my roommate and grabbed coffee. Feeling very</text>
+    <text x="15" y="148" font-family="sans-serif" font-size="13" fill="#495057">peaceful, grounded, and ready for tomorrow.</text>
+    
+    <!-- Topic Badges -->
+    <text x="15" y="190" font-family="sans-serif" font-size="11" font-weight="bold" fill="#6c757d">Identified Topics:</text>
+    <rect x="15" y="200" width="75" height="20" rx="10" fill="#e9ecef"/>
+    <text x="52" y="214" font-family="sans-serif" font-size="10" fill="#495057" text-anchor="middle">academics</text>
+    <rect x="95" y="200" width="60" height="20" rx="10" fill="#e9ecef"/>
+    <text x="125" y="214" font-family="sans-serif" font-size="10" fill="#495057" text-anchor="middle">walking</text>
+    <rect x="160" y="200" width="80" height="20" rx="10" fill="#e9ecef"/>
+    <text x="200" y="214" font-family="sans-serif" font-size="10" fill="#495057" text-anchor="middle">socializing</text>
+  </g>
+
+  <!-- Sentiment & Analysis Card -->
+  <g transform="translate(30, 465)">
+    <rect x="0" y="0" width="330" height="150" rx="12" fill="#ffffff" stroke="#ced4da" stroke-width="1.5"/>
+    <text x="15" y="28" font-family="sans-serif" font-size="13" font-weight="bold" fill="#212529">Sentiment Breakdown</text>
+    
+    <text x="15" y="60" font-family="sans-serif" font-size="12" fill="#495057">Lexicon Baseline Score:</text>
+    <text x="315" y="60" font-family="sans-serif" font-size="12" font-weight="bold" fill="#212529" text-anchor="end">+0.68</text>
+    
+    <text x="15" y="90" font-family="sans-serif" font-size="12" fill="#495057">Model Evaluated Score:</text>
+    <text x="315" y="90" font-family="sans-serif" font-size="12" font-weight="bold" fill="#212529" text-anchor="end">+0.72 (High)</text>
+    
+    <line x1="15" y1="108" x2="315" y2="108" stroke="#dee2e6" stroke-width="1"/>
+    
+    <text x="15" y="132" font-family="sans-serif" font-size="11" fill="#6c757d">Source: Gemini 2.5 Flash via Cloud Function</text>
+  </g>
+
+  <!-- Bottom Home Indicator -->
+  <rect x="130" y="825" width="130" height="5" rx="2.5" fill="#212529"/>
+</svg>

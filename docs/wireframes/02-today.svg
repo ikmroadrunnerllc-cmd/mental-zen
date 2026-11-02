@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <!-- Device Outer Frame -->
+  <rect x="0" y="0" width="390" height="844" rx="40" fill="#f8f9fa" stroke="#212529" stroke-width="4"/>
+  <!-- Status Bar -->
+  <rect x="135" y="12" width="120" height="28" rx="14" fill="#212529"/>
+  <text x="35" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#212529">09:41</text>
+  <text x="330" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#212529">100%</text>
+
+  <!-- App Bar -->
+  <text x="30" y="85" font-family="sans-serif" font-size="22" font-weight="bold" fill="#212529">Today</text>
+  <text x="30" y="105" font-family="sans-serif" font-size="12" fill="#6c757d">Thursday, Nov 20</text>
+  
+  <!-- Streak Counter Badge -->
+  <rect x="270" y="68" width="90" height="34" rx="17" fill="#e9ecef" stroke="#ced4da" stroke-width="1"/>
+  <text x="315" y="90" font-family="sans-serif" font-size="13" font-weight="bold" fill="#212529" text-anchor="middle">5 Days</text>
+
+  <!-- Section: How are you feeling? -->
+  <text x="30" y="145" font-family="sans-serif" font-size="14" font-weight="bold" fill="#212529">How are you feeling?</text>
+  
+  <!-- Segmented Button (1 to 5) -->
+  <g transform="translate(30, 160)">
+    <rect x="0" y="0" width="66" height="44" rx="6" fill="#ffffff" stroke="#ced4da" stroke-width="1.5"/>
+    <text x="33" y="27" font-family="sans-serif" font-size="14" font-weight="bold" fill="#495057" text-anchor="middle">1</text>
+    <rect x="66" y="0" width="66" height="44" rx="0" fill="#ffffff" stroke="#ced4da" stroke-width="1.5"/>
+    <text x="99" y="27" font-family="sans-serif" font-size="14" font-weight="bold" fill="#495057" text-anchor="middle">2</text>
+    <rect x="132" y="0" width="66" height="44" rx="0" fill="#ffffff" stroke="#ced4da" stroke-width="1.5"/>
+    <text x="165" y="27" font-family="sans-serif" font-size="14" font-weight="bold" fill="#495057" text-anchor="middle">3</text>
+    <rect x="198" y="0" width="66" height="44" rx="0" fill="#212529" stroke="#212529" stroke-width="1.5"/>
+    <text x="231" y="27" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+    <rect x="264" y="0" width="66" height="44" rx="6" fill="#ffffff" stroke="#ced4da" stroke-width="1.5"/>
+    <text x="297" y="27" font-family="sans-serif" font-size="14" font-weight="bold" fill="#495057" text-anchor="middle">5</text>
+  </g>
+  <text x="30" y="222" font-family="sans-serif" font-size="11" fill="#6c757d">Selected: 4 - Good / Calm</text>
+
+  <!-- Section: Journal Entry -->
+  <text x="30" y="260" font-family="sans-serif" font-size="14" font-weight="bold" fill="#212529">Daily Reflection</text>
+  <rect x="30" y="275" width="330" height="220" rx="10" fill="#ffffff" stroke="#ced4da" stroke-width="1.5"/>
+  <text x="45" y="305" font-family="sans-serif" font-size="14" fill="#6c757d">Write what happened today...</text>
+  <text x="345" y="480" font-family="sans-serif" font-size="11" fill="#adb5bd" text-anchor="end">0 / 1000</text>
+
+  <!-- Save Button -->
+  <rect x="30" y="515" width="330" height="48" rx="8" fill="#212529"/>
+  <text x="195" y="545" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">Save Entry</text>
+
+  <!-- Daily Prompt Card / Tip -->
+  <rect x="30" y="585" width="330" height="85" rx="10" fill="#e9ecef" stroke="#dee2e6" stroke-width="1"/>
+  <text x="45" y="612" font-family="sans-serif" font-size="12" font-weight="bold" fill="#212529">Today's Reflection Prompt</text>
+  <text x="45" y="635" font-family="sans-serif" font-size="12" fill="#495057">What is one small victory you experienced today,</text>
+  <text x="45" y="652" font-family="sans-serif" font-size="12" fill="#495057">no matter how minor it might seem?</text>
+
+  <!-- Bottom Navigation Bar -->
+  <rect x="0" y="750" width="390" height="65" fill="#ffffff" stroke="#dee2e6" stroke-width="1"/>
+  <!-- Nav Item: Today (Active) -->
+  <rect x="45" y="758" width="40" height="4" rx="2" fill="#212529"/>
+  <text x="65" y="785" font-family="sans-serif" font-size="11" font-weight="bold" fill="#212529" text-anchor="middle">Today</text>
+  <!-- Nav Item: History -->
+  <text x="165" y="785" font-family="sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">History</text>
+  <!-- Nav Item: Insights -->
+  <text x="255" y="785" font-family="sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Insights</text>
+  <!-- Nav Item: Settings -->
+  <text x="335" y="785" font-family="sans-serif" font-size="11" fill="#6c757d" text-anchor="middle">Settings</text>
+
+  <!-- Home Indicator -->
+  <rect x="130" y="825" width="130" height="5" rx="2.5" fill="#212529"/>
+</svg>

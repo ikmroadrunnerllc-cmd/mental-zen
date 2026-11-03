@@ -1,0 +1,17 @@
+# Course Challenges (C1 - C4)
+
+## Challenge 1 (C1)
+<!-- PASTE COURSE TEXT HERE -->
+[PASTE COURSE TEXT HERE]
+
+## Challenge 2 (C2)
+<!-- PASTE COURSE TEXT HERE -->
+[PASTE COURSE TEXT HERE]
+
+## Challenge 3 (C3)
+<!-- PASTE COURSE TEXT HERE -->
+[PASTE COURSE TEXT HERE]
+
+## Challenge 4 (C4)
+<!-- PASTE COURSE TEXT HERE -->
+[PASTE COURSE TEXT HERE]

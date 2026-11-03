@@ -1,0 +1,182 @@
+[
+  {
+    "id": "pos_01",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Woke up feeling refreshed today. Walked to campus in the morning sunshine and finished my lab ahead of schedule."
+  },
+  {
+    "id": "pos_02",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Had lunch with study group friends. We laughed a lot and helped each other prepare for next week's exam."
+  },
+  {
+    "id": "pos_03",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Finally received feedback on my term paper and got an A. Hard work really paid off this semester."
+  },
+  {
+    "id": "pos_04",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Enjoyed a peaceful evening reading in the library. Feeling centered, grateful, and motivated."
+  },
+  {
+    "id": "pos_05",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Went for a 5k run along the canal. Cleared my head and feeling energetic for the rest of the week."
+  },
+  {
+    "id": "pos_06",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Cooking dinner with my roommate was very relaxing. Nice break from studying all afternoon."
+  },
+  {
+    "id": "pos_07",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Submitted my assignment with hours to spare. Feeling an immense sense of relief and quiet confidence."
+  },
+  {
+    "id": "pos_08",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Attended an inspiring guest lecture today on cognitive psychology. Really excited about this field."
+  },
+  {
+    "id": "pos_09",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Practiced meditation for twenty minutes before bed. Feeling calm, peaceful, and ready for good sleep."
+  },
+  {
+    "id": "pos_10",
+    "label": 1,
+    "probe": "standard_positive",
+    "text": "Got a supportive message from my parents today. Grateful to have such caring people in my corner."
+  },
+  {
+    "id": "neg_01",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Completely overwhelmed by three consecutive deadlines tomorrow. Can barely focus on studying."
+  },
+  {
+    "id": "neg_02",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Slept poorly due to stress and missed my 8 AM quiz. Disappointed in myself and spiraling."
+  },
+  {
+    "id": "neg_03",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Feeling very isolated and homesick this evening. Sitting alone in the dorm room without motivation."
+  },
+  {
+    "id": "neg_04",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Failed the practice exam today. Worrying constantly about whether I can pass this course."
+  },
+  {
+    "id": "neg_05",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Got into an unnecessary argument with a classmate during our team meeting. Feeling drained and frustrated."
+  },
+  {
+    "id": "neg_06",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Headache won't go away and I have forty pages of dense reading left. Everything feels like a struggle."
+  },
+  {
+    "id": "neg_07",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "My laptop crashed right before saving changes to my assignment draft. So angry and exhausted."
+  },
+  {
+    "id": "neg_08",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Woke up with heavy dread in my chest. Hard to find reasons to get out of bed this morning."
+  },
+  {
+    "id": "neg_09",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Impending tuition and rent expenses are giving me acute anxiety. Struggling to concentrate on coursework."
+  },
+  {
+    "id": "neg_10",
+    "label": -1,
+    "probe": "standard_negative",
+    "text": "Felt completely ignored during the group presentation planning session. Feeling useless and down."
+  },
+  {
+    "id": "adv_01",
+    "label": 1,
+    "probe": "negation",
+    "text": "Not bad at all. Actually had a surprisingly peaceful afternoon and no major headaches today."
+  },
+  {
+    "id": "adv_02",
+    "label": -1,
+    "probe": "sarcasm",
+    "text": "Oh fantastic, another four-hour debugging session where nothing compiles and my coffee spilled."
+  },
+  {
+    "id": "adv_03",
+    "label": 1,
+    "probe": "double_negative",
+    "text": "I cannot say that I am not relieved that midterm week is finally behind us."
+  },
+  {
+    "id": "adv_04",
+    "label": -1,
+    "probe": "emoji_only",
+    "text": "💀🙃🌧️"
+  },
+  {
+    "id": "adv_05",
+    "label": -1,
+    "probe": "one_word",
+    "text": "Exhausted."
+  },
+  {
+    "id": "adv_06",
+    "label": 1,
+    "probe": "past_vs_present",
+    "text": "I felt utterly miserable this morning, but right now after talking to friends I feel calm and optimistic."
+  },
+  {
+    "id": "adv_07",
+    "label": 0,
+    "probe": "hedged",
+    "text": "Maybe today wasn't completely terrible, but I suppose things could easily slip sideways tomorrow."
+  },
+  {
+    "id": "adv_08",
+    "label": 1,
+    "probe": "all_caps",
+    "text": "I ACTUALLY FINISHED MY ENTIRE COMPILER PROJECT ON TIME AND IT PASSED EVERY TEST CASE!"
+  },
+  {
+    "id": "adv_09",
+    "label": 0,
+    "probe": "understatement",
+    "text": "The presentation went okay, just minor anxiety before presenting to two hundred people."
+  },
+  {
+    "id": "adv_10",
+    "label": 0,
+    "probe": "clinical_neutral",
+    "text": "Attended lectures at 0900 and 1300. Completed reading chapter four. Ate dinner at 1830."
+  }
+]

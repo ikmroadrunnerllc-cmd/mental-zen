@@ -1,0 +1,40 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isAuthenticated() && request.auth.uid == uid;
+    }
+
+    // User profile document
+    match /users/{uid} {
+      allow read, write: if isOwner(uid);
+
+      // Journal entries: strictly owner-only
+      match /entries/{entryId} {
+        allow read, write: if isOwner(uid);
+      }
+
+      // Daily AI / baseline insights: strictly owner-only
+      match /insights/{date} {
+        allow read, write: if isOwner(uid);
+      }
+    }
+
+    // AI evaluation dataset & results: client read-only, write denied (managed by backend / admin)
+    match /aiEval/{runId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    // Default deny all other paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

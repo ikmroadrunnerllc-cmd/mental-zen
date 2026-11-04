@@ -11,6 +11,6 @@ I hereby certify that the architectural design, software implementations, test s
 All artificial intelligence agent usage in the development of this project has been logged transparently in `AI_Usage_Log.md`, detailing the dates, proposed contributions, acceptance decisions, rationale, and specific verification steps undertaken.
 
 Name: [FILL name]  
-GitHub Handle: [FILL github handle]  
+GitHub Handle: ikmroadrunnerllc-cmd  
 Date: [FILL date]  
 Signature: [FILL signature]  

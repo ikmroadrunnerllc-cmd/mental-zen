@@ -6,13 +6,13 @@
 
 | Name | GitHub Handle | Role | Owned Scope |
 | :--- | :--- | :--- | :--- |
-| [FILL name] | [FILL github handle] | Lead Developer (Solo) | Full architectural design, Flutter client implementation, Firebase integration, offline baseline lexicon engine, and end-to-end testing across all project phases |
+| [FILL name] | ikmroadrunnerllc-cmd | Lead Developer (Solo) | Full architectural design, Flutter client implementation, Firebase integration, offline baseline lexicon engine, and end-to-end testing across all project phases |
 
 ### Project Summary
 Mental Zen is a private, Android-first personal mood journal developed for undergraduate students seeking mindful daily reflection. Users record an entry each day featuring a discrete 1-to-5 mood evaluation accompanied by an optional reflective journal entry of up to 1000 characters. The system tracks continuous daily journaling consistency through an automated streak counter and presents chronological entry history with filterable emotional trends. Each day, an actionable reflection card synthesizes recent emotional patterns from the previous 14 days without transmitting raw historical entry prose to third-party endpoints. Robust data protection is enforced directly at the backend boundary via owner-only Firestore security rules, while an offline-first architecture pairs a local Dart lexicon scorer with an optional server-side Cloud Function to provide deterministic fallbacks whenever network connectivity drops.
 
 ### Repository and Academic Integrity Statement
-- **Repository URL:** [FILL URL]
+- **Repository URL:** https://github.com/ikmroadrunnerllc-cmd/mental-zen
 - **Signed Contribution Statement:** Staged at `docs/statements/member.md` with required [FILL] markers for verification and grading.
 
 ---

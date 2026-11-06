@@ -1,11 +1,20 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'core/l10n/app_strings.dart';
 import 'features/auth/ui/signin_screen.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (_) {
+    // In unit/widget test environments, Firebase.initializeApp is skipped
+  }
   runApp(const ProviderScope(child: MentalZenApp()));
 }
 

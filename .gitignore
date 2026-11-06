@@ -15,6 +15,7 @@ functions/.env
 .flutter-plugins-dependencies
 .packages
 build/
+coverage/
 .pub-cache/
 .pub/
 

@@ -1,4 +1,4 @@
-# Mental Zen — Project Proposal (Milestone 1)
+# Mental Zen — Project Proposal (Milestone 1 — Mobile Design)
 
 ## 1. Team Information
 
@@ -6,14 +6,14 @@
 
 | Name | GitHub Handle | Role | Owned Scope |
 | :--- | :--- | :--- | :--- |
-| [FILL name] | ikmroadrunnerllc-cmd | Lead Developer (Solo) | Full architectural design, Flutter client implementation, Firebase integration, offline baseline lexicon engine, and end-to-end testing across all project phases |
+| Mario Gutierrez | ikmroadrunnerllc-cmd | Lead Developer (Solo) | Full architectural design, Flutter client implementation, Firebase integration, offline baseline lexicon engine, and end-to-end testing across all project phases |
 
 ### Project Summary
 Mental Zen is a private, Android-first personal mood journal developed for undergraduate students seeking mindful daily reflection. Users record an entry each day featuring a discrete 1-to-5 mood evaluation accompanied by an optional reflective journal entry of up to 1000 characters. The system tracks continuous daily journaling consistency through an automated streak counter and presents chronological entry history with filterable emotional trends. Each day, an actionable reflection card synthesizes recent emotional patterns from the previous 14 days without transmitting raw historical entry prose to third-party endpoints. Robust data protection is enforced directly at the backend boundary via owner-only Firestore security rules, while an offline-first architecture pairs a local Dart lexicon scorer with an optional server-side Cloud Function to provide deterministic fallbacks whenever network connectivity drops.
 
 ### Repository and Academic Integrity Statement
 - **Repository URL:** https://github.com/ikmroadrunnerllc-cmd/mental-zen
-- **Signed Contribution Statement:** Staged at `docs/statements/member.md` with required [FILL] markers for verification and grading.
+- **Signed Contribution Statement:** Signed and staged at `docs/statements/member.md` for verification and grading.
 
 ---
 
@@ -239,10 +239,10 @@ The AI capability adheres to the frozen specification recorded in `docs/ai-contr
 | **F7** | Settings / Export / Delete | Export produces valid JSON; deletion purges all subcollections | Deletion requires typing "DELETE" to prevent accidental loss | Partial network failure halts cascade and preserves remaining data | `test/features/settings/account_deletion_test.dart` (Demo: Export JSON file) |
 | **F8** | Remote Config | Dynamic parameters update client flags on startup | Malformed remote payload defaults safely to local constants | Offline launch loads bundled in-app defaults seamlessly | `test/features/settings/remote_config_test.dart` (Demo: Override prompt version) |
 | **F9** | Analytics & Crashlytics | User actions record sanitized events (mood integer, word bucket) | Raw journal text and PII are strictly excluded from events | Offline actions queue locally and batch dispatch on reconnect | `test/features/settings/analytics_service_test.dart` (Demo: Crashlytics dashboard) |
-| **C1** | Challenge 1 | [PASTE COURSE TEXT HERE] | [PASTE COURSE TEXT HERE] | [PASTE COURSE TEXT HERE] | `docs/issues/C1-challenge.md` (Placeholder) |
-| **C2** | Challenge 2 | [PASTE COURSE TEXT HERE] | [PASTE COURSE TEXT HERE] | [PASTE COURSE TEXT HERE] | `docs/issues/C2-challenge.md` (Placeholder) |
-| **C3** | Challenge 3 | [PASTE COURSE TEXT HERE] | [PASTE COURSE TEXT HERE] | [PASTE COURSE TEXT HERE] | `docs/issues/C3-challenge.md` (Placeholder) |
-| **C4** | Challenge 4 | [PASTE COURSE TEXT HERE] | [PASTE COURSE TEXT HERE] | [PASTE COURSE TEXT HERE] | `docs/issues/C4-challenge.md` (Placeholder) |
+| **C1** | Responsive Layout & Scaling | 390x844 SVG specs adapt cleanly across standard Android viewports | Narrow 320dp width and 200% font scale wrap gracefully | Scroll shells prevent RenderFlex overflow errors | `docs/issues/C1-challenge.md` (Demo: Multi-device rotation) |
+| **C2** | Offline-First Synchronization | Submissions save synchronously to local disk cache and sync on reconnect | Network flapping during save resolves idempotently without duplication | Extended offline (>7d) calculates streaks locally without stalling UI | `docs/issues/C2-challenge.md` (Demo: Airplane-mode journal session) |
+| **C3** | Accessibility & Ergonomics | Material 3 touch targets (>= 48dp) and contrast >= 4.5:1 | High-contrast system mode and dark/light dynamic colors render cleanly | TalkBack screen reader provides semantic descriptions for all pills/buttons | `docs/issues/C3-challenge.md` (Demo: Screen reader traversal) |
+| **C4** | AI Low-Latency Degradation | Server-side Gemini callable delivers actionable insight within 4s | Empty entry skips callable; 1000 char text redacts PII cleanly | Timeout or 500 error displays local lexicon baseline with "Low Confidence" badge | `docs/issues/C4-challenge.md` (Demo: Simulated timeout fallback) |
 
 ### Milestone Development Timeline
 

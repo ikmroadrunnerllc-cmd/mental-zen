@@ -1,6 +1,7 @@
 # Member Contribution & Academic Honesty Statement
 
 Project: Mental Zen (Android Mood Journal)  
+Course: Mobile Design  
 Track: Undergraduate  
 Developer: Solo Developer  
 
@@ -10,7 +11,7 @@ I hereby certify that the architectural design, software implementations, test s
 
 All artificial intelligence agent usage in the development of this project has been logged transparently in `AI_Usage_Log.md`, detailing the dates, proposed contributions, acceptance decisions, rationale, and specific verification steps undertaken.
 
-Name: [FILL name]  
+Name: Mario Gutierrez  
 GitHub Handle: ikmroadrunnerllc-cmd  
-Date: [FILL date]  
-Signature: [FILL signature]  
+Date: 2026-11-22  
+Signature: Mario Gutierrez  

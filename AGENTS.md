@@ -19,6 +19,7 @@ Everything here is graded on evidence: issues, commits, tests, live explanation.
 7. Append to `AI_Usage_Log.md` after each accepted or rejected suggestion:
    date, task, what you proposed, accept/reject, why, how I verified.
 8. Stop and report after each numbered step in `docs/timeline.md`. Do not roll into the next.
+9. Plain, simple explanations always: Explain concepts simply like a helpful teacher/tutor. Avoid jargon, buzzwords, or over-engineered designs.
 
 ## Never
 - Hardcode keys, project IDs, or URLs. Use `--dart-define` and `.env`.
